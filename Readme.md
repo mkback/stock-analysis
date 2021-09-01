@@ -9,11 +9,12 @@
 
 Based on the 2017 results, all but one stock saw positive results, but when looking at 2018 results only two saw positive results. Stocks ENPH and RUN both saw positive return in both years so I would recommend Steve invest in these. See below for results each year. 
 
-![Alt Image Text](https://github.com/mkback/stock-analysis/blob/main/Resources%20(Challenge1)/Theater_Outcomes_vs_Launch.png)
+![Alt Image Text](https://github.com/mkback/stock-analysis/blob/master/Resources/Results.png)
 
 We ran this code twice, the first time it took about .3281 seconds to run. After we refactored the code, it took the run time down to .2734 seconds. This may only be a small difference, but this is a small piece of code. With larger code running, refactoring can show much more improvement. See below for the run times of the refactored code. 
 
-![Alt Image Text](https://github.com/mkback/stock-analysis/blob/main/Resources%20(Challenge1)/Theater_Outcomes_vs_Launch.png)
+![Alt Image Text](https://github.com/mkback/stock-analysis/blob/master/Resources/VBA_Challenge_2017.png)
+![Alt Image Text](https://github.com/mkback/stock-analysis/blob/master/Resources/VBA_Challenge_2018.png)
 
 ## Summary
 
