@@ -11,10 +11,14 @@ Based on the 2017 results, all but one stock saw positive results, but when look
 
 ![Alt Image Text](https://github.com/mkback/stock-analysis/blob/master/Resources/Results.png)
 
-We ran this code twice, the first time it took about .3281 seconds to run. After we refactored the code, it took the run time down to .2734 seconds. This may only be a small difference, but this is a small piece of code. With larger code running, refactoring can show much more improvement. See below for the run times of the refactored code. 
+We ran this code twice, the first time it took about .27 seconds to run. After we refactored the code, it took the run time down to .25 seconds. This may only be a small difference, but this is a small piece of code. With larger code running, refactoring can show much more improvement. See below for the run times of the refactored code vs not refactored. 
 
 ![Alt Image Text](https://github.com/mkback/stock-analysis/blob/master/Resources/VBA_Challenge_2017.png)
-![Alt Image Text](https://github.com/mkback/stock-analysis/blob/master/Resources/VBA_Challenge_2018.png)
+![Alt Image Text](https://github.com/mkback/stock-analysis/blob/master/Resources/VBA_NotRefactored.png)
+
+The difference between the code is making it loop only once and adding an index. See below screen shot for part of the refactored code. In this screenshot you can see one large for loop for i that goes through each line once and a smaller for loop for j that goes through the 12 tickers. 
+![Alt Image Text](https://github.com/mkback/stock-analysis/blob/master/Resources/Code.png)
+
 
 ## Summary
 
